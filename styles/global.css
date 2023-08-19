@@ -62,7 +62,7 @@ main a {
   width: 200px;
   border-radius: 8px;
   overflow: hidden;
-  border: 2px solid #c9c9c9;
+  border: 1px solid #c9c9c9;
 }
 
 .card img {
