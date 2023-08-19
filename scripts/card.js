@@ -14,5 +14,4 @@ function createCard(details) {
 
 function renderCard(card) {
   document.querySelector("main").innerHTML += card;
-  console.log("New card just rendered.");
 }
