@@ -83,3 +83,14 @@ main a {
   margin: 0 0.25rem 0.25rem;
   font-size: 0.85rem;
 }
+
+@media (max-width: 768px) {
+  .card {
+    width: 180px;
+  }
+  main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+  }
+}
